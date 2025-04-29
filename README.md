@@ -73,8 +73,5 @@ This is a fully functional 75% mechanical keyboard and custom ball-style mouse, 
 - PVC or 3D printed shell
 - Tactile switches for buttons
 - Connected via USB or directly to Pico
-
----
-
-## Folder Structure
+----
 
