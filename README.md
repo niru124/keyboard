@@ -49,7 +49,7 @@ This is a fully functional 75% mechanical keyboard and custom ball-style mouse, 
 ![Keyboard Overview](media/keyboard.jpg)
 
 ### Ball Mouse Overview
-![Ball Mouse Overview](media/mouse.jpg)
+![Ball Mouse Overview](media/mouse.gif)
 
 ---
 
