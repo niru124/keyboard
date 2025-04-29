@@ -10,7 +10,7 @@ This is a fully functional 75% mechanical keyboard and custom ball-style mouse, 
 
 ![Scroll Demo](media/mouse.gif)  
 
-[Watch the full demonstration video](media/demo_video.mp4) to see the keyboard and mouse in action.
+[Watch the full demonstration video](media/scoll.gif) to see the keyboard and mouse in action.
 
 ---
 
