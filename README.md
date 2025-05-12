@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a
+
 # Grid
 # Custom Mechanical Keyboard + DIY Ball Mouse  
 ### Built Raspberry Pi Pico
