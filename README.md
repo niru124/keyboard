@@ -8,7 +8,7 @@ This is a fully functional 75% mechanical keyboard and custom ball-style mouse, 
 
 ## Demonstration
 
-![Scroll Demo](media/mouse.gif)  
+![Scroll Demo](media/outputaa.mp4)  
 
 [Watch the full demonstration video](media/scoll.gif) to see the keyboard and mouse in action.
 
