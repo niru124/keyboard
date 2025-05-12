@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a
-
 # Grid
 # Custom Mechanical Keyboard + DIY Ball Mouse  
 ### Built Raspberry Pi Pico
@@ -12,7 +8,7 @@ This is a fully functional 75% mechanical keyboard and custom ball-style mouse, 
 
 ## Demonstration
 
-![Scroll Demo](media/outputaa.mp4)  
+![Scroll Demo](https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a)  
 
 [Watch the full demonstration video](media/scoll.gif) to see the keyboard and mouse in action.
 
