@@ -130,14 +130,14 @@ keyboard.keymap = [
 #Zoom_in = KC.LCTRL(KC.LSFT(KC.EQUAL))
 #Zoom_out = KC.LCTRL(KC.LSFT(KC.MINUS))
 
-WRK_right = KC.LALT(KC.M)
-WRK_left = KC.LALT(KC.N)
+# WRK_right = KC.LALT(KC.M)
+# WRK_left = KC.LALT(KC.N)
 
 encoder_handler.map = [
    ((KC.MW_UP, KC.MW_DOWN),),  # Standard Layer
-#   ((KC.MW_UP, KC.MW_DOWN),),  # Standard Layer
+  ((KC.VOLU, KC.VOLD),),  # Extra Layer
 #   ((Zoom_out, Zoom_in),),  # Extra Keys Layer
-    ((WRK_right, WRK_left),),
+    # ((WRK_right, WRK_left),),
     
 ]
 
