@@ -52,6 +52,9 @@ https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a
 ![Ball Mouse Overview](media/mouse.gif)
 
 ---
+How to make 
+https://github.com/user-attachments/assets/fa0b53f4-1770-4ec0-8809-de2507b9c789
+
 
 ## Hardware Used
 
