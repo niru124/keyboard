@@ -136,7 +136,7 @@ keyboard.keymap = [
 encoder_handler.map = [
    ((KC.MW_UP, KC.MW_DOWN),),  # Standard Layer
   ((KC.VOLU, KC.VOLD),),  # Extra Layer
-#   ((Zoom_out, Zoom_in),),  # Extra Keys Layer
+    #((Zoom_out, Zoom_in),),  # Extra Keys Layer
     # ((WRK_right, WRK_left),),
     
 ]
