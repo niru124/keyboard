@@ -5,6 +5,8 @@
 This is a fully functional 75% mechanical keyboard and custom ball-style mouse, built entirely from scratch using PVC pipes, recycled hardware, and a Raspberry Pi Pico running [KMK](https://github.com/KMKfw/kmk_firmware). It supports layers, macros, mouse emulation, a physical scroll wheel, and multimedia controls. The custom mouse is inspired by Pimoroni's ball mouse, utilizing the sensor from an old mouse and a homemade housing.
 
 ---
+## Overview
+![Overview](https://github.com/user-attachments/assets/52b6bd99-0244-4220-a50f-818a910b2e3d)
 
 ## Demonstration
 
