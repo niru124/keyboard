@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a
 ![Keyboard Overview](media/keyboard.jpg)
 
 ### Ball Mouse Overview
-![Ball Mouse Overview](media/mouse.gif)
+![Ball Mouse Overview](media/mouse.mp4)
 
 ---
 
