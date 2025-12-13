@@ -12,8 +12,19 @@ from kmk.extensions.statusled import statusLED
 from kmk.modules.holdtap import HoldTap
 from kmk.modules.dynamic_sequences import DynamicSequences
 from kmk.modules.rapidfire import RapidFire
-
-
+# from kmk.modules.thumbstick import Thumbstick
+#
+# thumbstick = Thumbstick(
+#                     x_pin = (board.IO13),
+#                     y_pin = (board.IO12),
+#                     button_pin = (board.IO11),
+#                     x_correction = 32248,
+#                     y_correction = 32408,
+#                     max_speed = 10,
+#                     button_input = KC.MB_LMB,
+#                     combine_inputs=False,
+#                     angle_threshold=3
+#             )
 
 
 # Define the pins for the two LEDs
@@ -85,24 +96,25 @@ LALU=KC.HT(KC.LSFT,KC.MO(LYR_NUM))
 
 LCTL = KC.HT(KC.A, KC.LCTRL)
 LSUP = KC.HT(KC.D, KC.RGUI)
-LAL= KC.HT(KC.ESC,KC.LALT)
+LAL= KC.HT(KC.ESC,KC.LCTL)
+LCTRL=KC.HT(KC.LCTL(KC.B),KC.LCTL)
 # Keymap
 
 keyboard.keymap = [        			
     # Standard (ISO) Layer
     [
-        KC.CAPS, KC.F1, KC.F2, KC.F3, KC.F4, KC.F5, KC.F6, KC.F7, KC.F8, KC.F9, KC.F10, KC.F11, KC.F12, KC.DEL, KC.PLAY_SEQUENCE(), KC.PSCR,
+        KC.CAPS, KC.F1, KC.F2, KC.F3, KC.F4, KC.F5, KC.F6, KC.F7, KC.F8, KC.F9, KC.F10, KC.F11, KC.F12, KC.DEL, KC.SPC, KC.PSCR,
         KC.GRAVE, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5, KC.N6, KC.N7, KC.N8, KC.N9, KC.N0, KC.MINS, KC.EQL, KC.BSPC, KC.NO, KC.PGUP,
         KC.TAB, KC.NO, KC.Q, KC.W, KC.E, KC.R, KC.T, KC.Y, KC.U, KC.I, KC.O, KC.P, KC.LBRC, KC.RBRC, KC.BSLASH, KC.PGDOWN,
         LAL, KC.NO, KC.A, KC.S, KC.D, KC.F, KC.G, KC.H, KC.J, KC.K, KC.L, KC.SCLN, KC.QUOT, KC.ENT, KC.NO, KC.RECORD_SEQUENCE(),
         KC.LSFT, KC.NO, KC.NO, KC.Z, KC.X, KC.C, KC.V, KC.B, KC.N, KC.M, KC.COMM, KC.DOT, KC.SLSH, LALU, KC.UP,EXAMPLE_TD,
-        KC.LCTL, KC.NO, KC.LGUI, KC.LALT, KC.MB_LMB,MOUSI_THREE, KC.SPC, KC.NO, KC.NO, KC.RALT,MOUSI_TWO,KC.NO,KC.NO,KC.LEFT, KC.DOWN, KC.RGHT,
+        LCTRL, KC.NO, KC.LGUI, KC.LALT, KC.MB_LMB,MOUSI_THREE, KC.SPC, KC.NO, KC.NO, KC.RALT,MOUSI_TWO,KC.NO,KC.NO,KC.LEFT, KC.DOWN, KC.RGHT,
     ],	
     # Extra Keys Layer
     [
         KC.TRNS, KC.TRNS, KC.MPLY, KC.BRIU, KC.BRID, KC.MUTE, KC.VOLD, KC.VOLU, KC.MPLY, KC.F9, KC.F10, KC.F11, KC.F12, KC.TRNS, KC.TRNS, KC.TRNS,
         KC.TRNS, KC.TRNS, KC.F2, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.NO, KC.TRNS,
-        KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.MB_MMB, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,
+        KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.MB_MMB, KC.TRNS, KC.TRNS, KC.BSPC, KC.TRNS,
         KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.MS_LT, KC.MS_DN, KC.MS_UP, KC.MS_RT, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,
         KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,KC.MS_UP, KC.TRNS,
         KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS, KC.TRNS,KC.MS_LT, KC.MS_DN, KC.MS_RT,
@@ -136,10 +148,11 @@ keyboard.keymap = [
 encoder_handler.map = [
    ((KC.MW_UP, KC.MW_DOWN),),  # Standard Layer
   ((KC.VOLU, KC.VOLD),),  # Extra Layer
-    #((Zoom_out, Zoom_in),),  # Extra Keys Layer
+#   ((Zoom_out, Zoom_in),),  # Extra Keys Layer
     # ((WRK_right, WRK_left),),
     
 ]
 
 if __name__ == '__main__':
         keyboard.go()   		
+
