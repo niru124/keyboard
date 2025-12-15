@@ -1,11 +1,15 @@
 # Grid
-# Custom Mechanical Keyboard + DIY Ball Mouse  
+
+# Custom Mechanical Keyboard + DIY Ball Mouse
+
 ### Built Raspberry Pi Pico
 
 This is a fully functional 75% mechanical keyboard and custom ball-style mouse, built entirely from scratch using PVC pipes, recycled hardware, and a Raspberry Pi Pico running [KMK](https://github.com/KMKfw/kmk_firmware). It supports layers, macros, mouse emulation, a physical scroll wheel, and multimedia controls. The custom mouse is inspired by Pimoroni's ball mouse, utilizing the sensor from an old mouse and a homemade housing.
 
 ---
+
 ## Overview
+
 ![Overview](https://github.com/user-attachments/assets/52b6bd99-0244-4220-a50f-818a910b2e3d)
 
 ## Demonstration
@@ -48,15 +52,20 @@ https://github.com/user-attachments/assets/9db709e7-7095-46e0-b96a-192f600a922a
 ## Media
 
 ### Keyboard Overview
+
 ![Keyboard Overview](media/keyboard.jpg)
 
 ### Ball Mouse Overview
-![Ball Mouse Overview](media/mouse.gif)
+
+https://github.com/user-attachments/assets/8ce8e161-7ad3-4537-a2ac-65a79913d2dc
+
+### Scroll Overview
+
+https://github.com/user-attachments/assets/29463b72-167c-47aa-b0aa-a0d087cd4fef
 
 ---
 
 https://github.com/user-attachments/assets/fa0b53f4-1770-4ec0-8809-de2507b9c789
-
 
 ## Hardware Used
 
@@ -78,5 +87,5 @@ https://github.com/user-attachments/assets/fa0b53f4-1770-4ec0-8809-de2507b9c789
 - PVC or 3D printed shell
 - Tactile switches for buttons
 - Connected via USB or directly to Pico
-----
 
+---
