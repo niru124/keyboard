@@ -71,6 +71,10 @@ https://github.com/user-attachments/assets/29463b72-167c-47aa-b0aa-a0d087cd4fef
 
 https://github.com/user-attachments/assets/fa0b53f4-1770-4ec0-8809-de2507b9c789
 
+### Circuit Diagram
+
+![circuit](./media/circuit.png)
+
 ## Hardware Used
 
 ### Keyboard
